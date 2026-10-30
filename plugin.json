@@ -1,0 +1,23 @@
+{
+  "id": "abyss-plugin-terminal",
+  "name": "终端引擎",
+  "version": "0.1.0",
+  "minHost": 1,
+  "minApp": "0.1.0",
+  "category": "terminal",
+  "summary": "Termux 血统的内置 Linux 终端：黑底白字 / 快捷命令键盘 / 前台服务保活，深渊工具的灵魂模块。",
+  "icon": "🖥",
+  "permissions": [
+    "INTERNET",
+    "FOREGROUND_SERVICE",
+    "WAKE_LOCK"
+  ],
+  "entry": "com.abyss.tools.plugin.terminal.TerminalPlugin",
+  "repo": "Ultra-Guru/abyss-plugin-terminal",
+  "patchChannel": "https://raw.githubusercontent.com/Ultra-Guru/abyss-plugin-terminal/main/patches/index.json",
+  "roadmap": [
+    "v0.2 伪终端渲染内核（VT/ANSI）",
+    "v0.3 bootstrap 根文件系统",
+    "v0.4 快捷命令键盘与主题工坊"
+  ]
+}
