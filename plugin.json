@@ -13,8 +13,8 @@
     "WAKE_LOCK"
   ],
   "entry": "com.abyss.tools.plugin.terminal.TerminalPlugin",
-  "repo": "Ultra-Guru/abyss-plugin-terminal",
-  "patchChannel": "https://raw.githubusercontent.com/Ultra-Guru/abyss-plugin-terminal/main/patches/index.json",
+  "repo": "abyss-tool/abyss-plugin-terminal",
+  "patchChannel": "https://raw.githubusercontent.com/abyss-tool/abyss-plugin-terminal/main/patches/index.json",
   "roadmap": [
     "v0.2 伪终端渲染内核（VT/ANSI）",
     "v0.3 bootstrap 根文件系统",
